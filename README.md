@@ -4,7 +4,7 @@ A React-based tool designed to visualize the growth of investments through compo
 
 This tool automatically calculates and compounds interest, providing detailed reports that include both charts and tables. Users can easily track their estimated total growth over the years and watch how their interest adds up alongside the money they've invested. It's a simple way to see how your investments grow.
 
-## [Preview](https://github.com/farah1902/compound-interest-calculator/)
+## [Preview](https://farah1902.github.io/compound-interest-calculator/)
 You can explore and play around with the calculator by accessing a live version available **[here](https://github.com/farah1902/compound-interest-calculator/)**.
 
 Below is an example report based on an initial investment of $10,000.00, with monthly contributions of $100.00 and an annual interest rate of 6% over 25 years:
