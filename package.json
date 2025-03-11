@@ -1,14 +1,18 @@
 {
-  "name": "react-compound-interest-calculator",
+  "name": "compound-interest-calculator",
   "private": true,
   "version": "1.0.0",
+  "homepage": "https://farah1902.github.io/compound-interest-calculator/",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "ghdeploy": "vite build && cd dist && cp index.html 404.html"
+    "ghdeploy": "vite build && cd dist && cp index.html 404.html",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.6.0",
